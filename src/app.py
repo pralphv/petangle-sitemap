@@ -28,7 +28,7 @@ def process_data(products_ids):
         json={
             "url": constants.PETANGLE_URL,
             "endPoints": products_ids,
-            "languages": ['cn', 'jp'],
+            "languages": ['zh', 'jp'],
         }
     )
     logging.debug('Successfully received response from sitemap-generator-heroku')
